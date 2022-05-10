@@ -1,0 +1,54 @@
+header {
+  border-style: solid;
+  padding: 15px;
+}
+h1 {
+  text-align:left;
+}
+#p1 {
+  font-weight: normal;
+}
+p {
+  top: 50px;
+  right: 0px;
+  text-align: right;
+  font-size: 13px;
+}
+div {
+  border-style: solid;
+}
+nav {
+  border-style: solid;
+  padding: 10px;
+}
+a {
+  padding-right: 40px;
+  padding-left: 10px;
+}
+.heading {
+  border-style: solid;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+#p2 {
+  text-align: left;
+  font-size: 20px;
+}
+.aside {
+  width: 30%
+  max-width: 200px;
+  min-width: 100px;
+  float: right;
+  background-color: #eeee;
+  border: black solid 1px;
+  margin: 40px;
+  padding: 20px;
+  padding-bottom: 160px;
+}
+.footer {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
