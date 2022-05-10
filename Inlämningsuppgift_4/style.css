@@ -1,0 +1,35 @@
+header {
+	text-align: center;
+	background: black;
+	color: white;
+	padding-bottom: 20px;
+}
+body {
+	background: #baa;
+}
+h1, h2, h3 {
+	text-align: center;
+}
+h1 {
+	font-family: Arial;
+}
+h2, h3 {
+	border: solid;
+}
+h3 {
+	font-style: italic;
+}
+nav {
+	text-align: center;
+}
+img {
+	max-width: 120%;
+	height: auto;
+	border-radius: 20px;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
