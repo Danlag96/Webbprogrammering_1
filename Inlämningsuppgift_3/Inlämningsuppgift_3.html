@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset=UTF-8>
+	<title>INLÄMNINGSUPPGIFT 3</title>
+</head>
+<body>
+	<form action="http://webshare.mah.se/tszagh/response.php" method="get">
+		<fieldset>
+			<legend>Kontaktuppgifter</legend>
+			 <label>Namn:</label>
+			  <input name="Namn" required="" type="text"><br>
+			<label>Ålder:</label>
+			 <input name="Ålder" required="" type="number">
+		</fieldset>
+		<fieldset>
+			<legend>Dina besök på blomstermålabladet</legend>
+			<p>Hur ofta besöker du blomstermålabladet?</p>
+			<input id="Dag" name="Besök" required="" type="radio" value="Varje dag">
+			 <label>Varje dag</label><br>
+			<input id="Dag2" name="Besök" required="" type="radio" value="Varannan dag">
+			 <label>Varannan dag</label><br>
+			<input id="Veckor" name="Besök" required="" type="radio" value="Varje vecka">
+			 <label>Varje vecka</label>
+			<p>Vilka delar av blomstermålabladet brukar du besöka?</p>
+			<input id="blomster1" name="Nyhetsbesök" type="checkbox" value="Ja">
+			 <label for="blomster1">Nyheter</label><br>
+			<input id="blomster2" name="Utrikesbesök" type="checkbox" value="Ja">
+			 <label for="blomster2">Utrikes</label><br>
+			<input id="blomster3" name="Inrikesbesök" type="checkbox" value="Ja">
+			 <label for="blomster3">Inrikes</label><br>
+			<br>
+			<input id="blomster4" name="Sportbesök" type="checkbox" value="Ja">
+			 <label for="blomster4">Sport</label><br>
+			<input id="blomster5" name="Skvallerbesök" type="checkbox" value="Ja">
+			 <label for="blomster5">Skvaller</label><br>
+			<input id="blomster6" name="Väderbesök" type="checkbox" value="Ja">
+			 <label for="blomster6">Väder</label><br>
+			<br>
+			<input id="blomster7" name="Övrigt" type="checkbox" value="Ja">
+			 <label for="blomster7">Övrigt</label><br>
+			<br>
+		</fieldset>
+		<fieldset>
+			<legend>Vinn en T-shirt!</legend>
+			<p>Ni har möjligheten att vinna en T-shirt om ni fyller i följande information:</p>
+			<p>Vilket var det bästa blomstermålabladet:</p>
+			<textarea name="Bästa" required=""></textarea><br>
+			<p>Vilket var det sämsta blomstermålabladet:</p>
+			<textarea name="Sämsta" required=""></textarea><br>
+			<br>
+			<label>E-post</label>
+			 <input placeholder="t.ex. HTML@gmail.com" required="" type="email"><br>
+			<br>
+			<label for="Storlek">Storlek:</label>
+			 <select id="Storlek" name="Storlek">
+				<option>
+					XS
+				</option>
+				<option>
+					S
+				</option>
+				<option selected>
+					M
+				</option>
+				<option>
+					L
+				</option>
+				<option>
+					XL
+				</option>
+			</select><br>
+			<br>
+		</fieldset>
+		<fieldset>
+			<legend>Skicka/Återställ</legend>
+			 <button type="submit">Skicka</button>
+			  <button type="reset">Återställ</button>
+		</fieldset>
+	</form>
+</body>
+</html>
